@@ -27,7 +27,7 @@ export default function GetStarted() {
          });
     } else {
       Alert.alert("OPPS!", "todo must be 3 chars long", [
-        { text: "Okay", onPress: () => console.log("alert close") },
+        { text: "Okay" },
       ]);
     }
  
@@ -36,7 +36,6 @@ export default function GetStarted() {
   return (
     <TouchableWithoutFeedback onPress={() => {
       Keyboard.dismiss();
-      console.log('dismiss keyboard')
     }}>
       <View style={styles.container}>
         <Header />
