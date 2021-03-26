@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/todo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/todo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
